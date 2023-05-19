@@ -1,0 +1,7 @@
+Pods/
+*.DS_Store
+*.xccheckout
+*.xcuserstate
+*.xcscheme
+xcuserdata/
+xcshareddata/
