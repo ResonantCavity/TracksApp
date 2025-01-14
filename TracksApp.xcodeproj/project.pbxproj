@@ -24,7 +24,6 @@
 		9CAE8F982A1819C50075BA76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CAE8F9B2A1819C50075BA76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CAE8F9D2A1819C50075BA76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAC00ACB58C2F3E765980081 /* libPods-TracksApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TracksApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +56,6 @@
 		4C7D9A91D7D43E04FF4F7D40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DAC00ACB58C2F3E765980081 /* libPods-TracksApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
