@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04CE637A2D3724720027E212 /* TracksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE63792D3724720027E212 /* TracksView.swift */; };
+		04CE637C2D3726100027E212 /* TracksService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE637B2D3726100027E212 /* TracksService.swift */; };
 		9CAE8F902A1819C40075BA76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAE8F8F2A1819C40075BA76 /* AppDelegate.swift */; };
 		9CAE8F942A1819C40075BA76 /* TracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAE8F932A1819C40075BA76 /* TracksViewController.swift */; };
 		9CAE8F992A1819C50075BA76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CAE8F982A1819C50075BA76 /* Assets.xcassets */; };
 		9CAE8F9C2A1819C50075BA76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CAE8F9A2A1819C50075BA76 /* LaunchScreen.storyboard */; };
-		9CAE8FA42A181D900075BA76 /* TracksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAE8FA32A181D900075BA76 /* TracksView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04CE63792D3724720027E212 /* TracksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksView.swift; sourceTree = "<group>"; };
+		04CE637B2D3726100027E212 /* TracksService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksService.swift; sourceTree = "<group>"; };
 		9CAE8F8C2A1819C40075BA76 /* TracksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TracksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CAE8F8F2A1819C40075BA76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CAE8F932A1819C40075BA76 /* TracksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksViewController.swift; sourceTree = "<group>"; };
 		9CAE8F982A1819C50075BA76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CAE8F9B2A1819C50075BA76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CAE8F9D2A1819C50075BA76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CAE8FA32A181D900075BA76 /* TracksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksView.swift; sourceTree = "<group>"; };
 		DAC00ACB58C2F3E765980081 /* libPods-TracksApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TracksApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -36,6 +38,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04CE63772D3723370027E212 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				9CAE8F932A1819C40075BA76 /* TracksViewController.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		04CE63782D37233D0027E212 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				04CE63792D3724720027E212 /* TracksView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
 		4C7D9A91D7D43E04FF4F7D40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -64,9 +82,10 @@
 		9CAE8F8E2A1819C40075BA76 /* TracksApp */ = {
 			isa = PBXGroup;
 			children = (
+				04CE63782D37233D0027E212 /* SwiftUI */,
+				04CE63772D3723370027E212 /* UIKit */,
 				9CAE8F8F2A1819C40075BA76 /* AppDelegate.swift */,
-				9CAE8F932A1819C40075BA76 /* TracksViewController.swift */,
-				9CAE8FA32A181D900075BA76 /* TracksView.swift */,
+				04CE637B2D3726100027E212 /* TracksService.swift */,
 				9CAE8F982A1819C50075BA76 /* Assets.xcassets */,
 				9CAE8F9A2A1819C50075BA76 /* LaunchScreen.storyboard */,
 				9CAE8F9D2A1819C50075BA76 /* Info.plist */,
@@ -146,7 +165,8 @@
 			files = (
 				9CAE8F942A1819C40075BA76 /* TracksViewController.swift in Sources */,
 				9CAE8F902A1819C40075BA76 /* AppDelegate.swift in Sources */,
-				9CAE8FA42A181D900075BA76 /* TracksView.swift in Sources */,
+				04CE637A2D3724720027E212 /* TracksView.swift in Sources */,
+				04CE637C2D3726100027E212 /* TracksService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
