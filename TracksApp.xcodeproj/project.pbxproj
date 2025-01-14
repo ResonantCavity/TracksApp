@@ -80,10 +80,10 @@
 		9CAE8F8E2A1819C40075BA76 /* TracksApp */ = {
 			isa = PBXGroup;
 			children = (
-				04CE63782D37233D0027E212 /* SwiftUI */,
-				04CE63772D3723370027E212 /* UIKit */,
 				9CAE8F8F2A1819C40075BA76 /* AppDelegate.swift */,
 				04CE637B2D3726100027E212 /* TracksService.swift */,
+				04CE63782D37233D0027E212 /* SwiftUI */,
+				04CE63772D3723370027E212 /* UIKit */,
 				9CAE8F982A1819C50075BA76 /* Assets.xcassets */,
 				9CAE8F9A2A1819C50075BA76 /* LaunchScreen.storyboard */,
 				9CAE8F9D2A1819C50075BA76 /* Info.plist */,
@@ -119,7 +119,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					9CAE8F8B2A1819C40075BA76 = {
 						CreatedOnToolsVersion = 14.3;
@@ -218,6 +218,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -278,6 +279,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
