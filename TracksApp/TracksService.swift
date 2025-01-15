@@ -22,20 +22,18 @@ struct TracksResponse: Codable {
 struct Track: Codable {
     let id: String
     let userId: Int
-    let userName: String
+    let username: String
     let title: String
     let trackURL: String
     let durationSeconds: Int
-    let genre: String
     let playCount: Int
     
     enum CodingKeys: String, CodingKey {
         case id
         case userId = "user_id"
-        case userName = "user_name"
+        case username = "user_name"
         case title
         case trackURL = "signed_track_url"
-        case genre
         case playCount = "play_count"
         case durationSeconds = "duration_seconds"
     }
