@@ -4,6 +4,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class TracksViewController: UIViewController {
     let tableView = UITableView()
@@ -44,4 +45,8 @@ extension TracksViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
     }
+}
+
+#Preview {
+    TracksViewController()
 }
